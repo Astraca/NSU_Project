@@ -1,0 +1,127 @@
+* {
+    /* 清除页面本来的边距 */
+    margin:0;
+    padding: 0;
+}
+html {
+    /* 为了设置.content与屏幕高度一致 */
+    height: 100%;
+}
+body {
+    /* 设置.content与屏幕高度一致 */
+    height: 100%;
+}
+.header{
+    /* 设置顶栏样式 */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(244, 250, 249);
+    z-index: 1;
+}
+.header img {
+    /* 设置顶栏图片大小 */
+    height: 70px;
+}
+.banner {
+    /* 为了设置.content与屏幕高度一致 */
+    height: 100%;
+}
+.head_logout_btn {
+    float: right;
+    margin: 18px;
+    border: none;
+    border-radius: 15px!important;
+    outline: none;
+    background-color: rgba(204, 204, 209, 0.705);
+}
+.head_logout_btn:active {
+    background-color: rgba(204, 204, 209, 0.507)!important;
+}
+.left_menu  {
+    /* padding设置防止被header覆盖 */
+    padding: 70px 0;
+    width: 280px;
+    height: 100%;
+    background-color: rgb(244, 250, 249);
+}
+.left_menu img {
+    height: 40px;
+}
+.left_menu div {
+    height: 60px;
+    line-height: 60px;
+}
+.left_menu_head {
+    width: 100%;
+    background-color: transparent;
+}
+.left_menu_head img {
+    margin-left: 220px;
+    cursor: pointer;
+}
+.answerdata,
+.accountdata {
+    width: 100%;
+    padding-left: 75px;
+    background-color: rgb(186, 222, 238);
+}
+.answerdata:hover {
+    background-color: rgb(142, 207, 235);
+    cursor: pointer;
+}
+.accountdata:hover {
+    background-color: rgb(142, 207, 235);
+    cursor: pointer;
+}
+.answerdata:active {
+    background-color: rgba(119, 180, 206, 0.836);
+}
+.accountdata:active {
+    background-color: rgba(119, 180, 206, 0.836);
+}
+.accountdata img,
+.answerdata img {
+    padding-right: 15px;
+}
+
+
+/* -----------内容----------- */
+.mymain {
+    margin-left: 280px;
+    padding: 70px 0;
+    height: 100%;
+    width: auto;
+}
+.data_content {
+    width:  78%;
+    height: 83%;
+    padding: 60px;
+    margin: 100px auto;
+    border-radius: 20px;
+    background-color: rgb(242, 247, 248);
+    
+}
+.data_head {
+    font-size: 20px;
+    height: 180px;
+    line-height: 180px;
+    padding-left: 60px;
+}
+.data_body {
+    display: flex;
+}
+.test {
+    flex:1;
+}
+.test img {
+    display: block;
+    width: auto;
+    height: 150px;
+    margin: 0 auto;
+}
+.test_head {
+    margin-bottom: 50px;
+}
